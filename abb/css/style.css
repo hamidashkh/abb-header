@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.header-all .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: #BFC9DD;
+}
+.header-all .top a{
+    color: #000000;
+    margin-right: 10px;
+    
+}
+.header-all .top .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-all .top .icons .dropdown{
+    margin-left: 10px;
+
+}
+.header-all .top .icons span{
+    margin-left: 10px
+}
+.header-all .top .icons i{
+    margin-left: 10px;
+}
+.header-all .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.header-all .middle .logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-all .middle a{
+    color:#BFC9DD;
+    margin-left: 10px;
+}
+.middle .logo .ferdi:hover a{
+    color:#000000;
+}
+.middle .logo .korp:hover a{
+    color:#000000;
+}
+.middle .logo .kob:hover a{
+    color:#000000;
+}
+.header-all .middle button{
+    border: 1px solid white;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-all .bottom{
+    padding: 1rem 4rem;
+}
+ul{
+    text-decoration: none;
+}
+hr{
+    background-color: #BFC9DD;
+}
+.header-all .bottom a{
+    margin-right: 10px;
+    color: black;
+}
+.top-ferdi{
+    display: none;
+}
+.logo i{
+    display: none;
+}
+.search-bar{
+    padding: 3rem ;
+    font-size: 24px;
+
+}
+
+@media (max-width:576px){
+    
+    .header-all .top nav{
+        display:none;
+    }
+    .header-all .top-ferdi{
+        display: block;
+    }
+    .header-all .bottom nav{
+        display: none;
+    }
+    .header-all .middle a{
+        display: none;
+    }
+    .header-all .middle .btn{
+        display: none;
+    }
+    .header-all .bottom{
+        display: none;
+    }
+    .header-all .logo i{
+        display: block;
+        justify-content: space-between;
+    }
+    .header-all .middle {
+        padding: 1rem 1rem;
+    }
+    .middle .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-all .top{
+        padding: 1rem 1rem;
+    }
+    .header-all .bottom{
+        padding: 1rem 1rem;
+    }
+    .icons .search{
+        display: none;
+    }
+}
